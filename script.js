@@ -23,9 +23,4 @@ $("#go").click(function(){
 	count++;
 });
 
-$("#new_item").keyup(function(e){
-	if(e.keyCode == 13){ // 13 is the enter key keycode
-		$(this).trigger("enterKey");
-		$("#go").click(); // when pressing enter, run onclick
-	}
-});
+$("#new_item").keyup(
