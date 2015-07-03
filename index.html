@@ -1,58 +1,125 @@
 <!DOCTYPE html>
-
-<html>
-
-	<head>
-		<title>My Resume</title>
-		<link rel="stylesheet" type="text/css" href="new.css">
-	</head>
-
-	<body>
-		
-		<div id="objective">
-		<h1>Stephanie Corona</h1>
-		<h3>Objective</h3>
-		<img src="http://images.clipartpanda.com/job-clip-art-job-target-md.png">
-		<p>To get a job</p>
-		
-		</div>
-		
-		<div id="education">
-		<h3>Education</h3>
-		<img src="http://www.winlab.rutgers.edu/~bronzino/img/rutgers.png">
-		<ul>
-			<li>Rutgers University New Brunswick</li>
-			<li>GPA:3.2</li>
-			<li>Dean's List</li>
-		</ul>
-		</div>
-		
-		<div id="languages">
-		<h3>Computer Languages</h3>
-		<ul>
-			<li>Java</li>
-			<li>HTML/CSS</li>
-			<li>MatLab</li>
-		</ul>
-		</div>	
-		
-		<div id="end">
-		<img src="http://i.ytimg.com/vi/Eghk9bVNN9M/maxresdefault.jpg">
-		<p><a href="http://scorona23.github.io/fortune"> Link to project fortune </a></p>
-		</div>
-		
-		<div>
-		<p>Enter your email below</p>
-		<input id="new_item" type="text" title="new list item"></input>
-		<input type="submit" id="go"></input>
-		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script src="script.js"></script>
-		</div>
-	
-	</body>
-
-</html>
-	
-	
-
+    <html>
+        <head>
+            <title>Stephanie's Resume</title>
+            <link rel="stylesheet" type="text/css" href="resumecss.css"/>
+        </head>
+        
+        <body>
+            <div class="menu-wrap">
+            <nav class="menu">
+                <ul class= "clearfix">
+                    <li> <span>About Me</span></li>
+                    <li> <span class="arrow">Resume</span> 
+                        <ul class="sub-menu">
+                            <li> Basic Info </li>
+                            <li> Education</li>
+                            <li> Skills</li>
+                            <li> Work Experiece</li>
+                        </ul>
+                    </li>
+                    <li> <span>Fun Websites</span></li>
+                    <li> <span>Gaming Websites</span></li>
+                    <li> <span>Projects</span></li>
+                </ul>
+                
+            </div>
+            </nav>
+            <article>
+            
+            <div class="heading">
+                <p id="name"> Stephanie Corona</p>
+                <p> 64 Brighton Avenue Perth Amboy, New Jersey</p>
+                <p> <strong>Email:</strong> scorona1000@gmail.com</p>
+                <p> <strong>Cell Phone:</strong> (732) 685- 7335</p>
+            </div>
+            
+            <section class="main-body">
+            
+            <div class="objective">
+                <h1> Objective</h1>
+                <p> To pursue a career in computer programming</p>
+            </div>    
+            
+            <div class="eduaction">
+                <h1> Education </h1>
+                    <h2> Rutgers University</h2>
+                        <p> <em> Major: </em> Computer Science</p>
+                        <p> <em>Graduation Year: </em> May 2017</p>
+                        <p> Dean's List Fall 2013</p>
+                    <h2> Perth Amboy High School</h2>
+                        <p> High School Diploma: June 2013</p>
+                        <p> Honor Societies: National Honor Society, English Honor Society, Math Honor Society</p>
+            </div>
+            
+            <div class="skills">
+                <h1> Skills </h1>
+                    <h2> Programming Languages: </h2>
+                        <p> Java</p>
+                        <p> HTML/CSS</p>
+                        <p> MatLab</p>
+                    <h2> Software: </h2>
+                        <p> Microsoft Office</p>
+                    <h2> Other: </h2>
+                        <p> Can speak, read, and fluently understand Spanish</p>
+            </div>
+            
+            <div class="work-experience">
+                <h1> Work Experience</h1>
+                    <h2> Alexander Library- Rutgers Libraries </h2>
+                    <h3><em> September 2014</em> - <strong> Present</strong></h3>
+                        <ul>
+                            <li>Guided visitors to locations around campus and within the library</li>
+                            <li> Assisted higher staff members</li>
+                            <li>Answered and resoleved visitors problems</li>        
+                        </ul>
+                    
+                    <h2> McDonald's Resturant</h2>
+                    <h3> <em> May 2014- August 2014</em></h3>
+       
+                
+                
+                <ul>
+                            <li>Received customers pleasantly, took their orders, transmitted to kitchen staff, served, and prepared bills.</li>
+                            <li>Handled high work load</li>
+                            <li>Adhered to the quality and work standards of the chain</li>
+                            <li>Assisted the other staff members in taking orders</li>
+                            <li>Maintained cleanliness in the work station</li>
+                        </ul>    
+                
+                    <h2> Rutgers Student Center</h2>
+                    <h3> <em> September 2013 - May 2014</em></h3>
+                        <ul>
+                            <li> Guided visitors to locations on Rutgers Campus</li>
+                            <li> Managed a database of events at the Student Center</li>
+                            <li> Trained new incoming employees in the Spring</li>
+                            <li> Worked in a professional enviornment</li>
+                        </li>
+            </div>
+            
+            <div class="activities">
+                <h1> Activities</h1>
+                    <h2> Hackathons</h2>
+                        <ul>
+                            <li> Participated in HackRU and HackHers since Fall 2014</li>
+                            <li> Attended Tech Talks to boost learning experience</li>
+                        </ul>
+                    <h2> Camp UKnight Leadership Camp</h2>
+                        <ul>
+                            <li> Retreat to help build leadership skills</li>
+                            <li> Participated in varies trust and teamwork building exercises</li>
+                        </ul>    
+                    <h2> School of Engineering EOF</h2>
+                        <ul>
+                            <li> Summer building program for new incoming freshmen</li>
+                            <li> Prepared us fo the rigorous work we would face during the school year</li>
+                        </ul>
+            </div>
+            </section>
+            </article>
+            
+            <footer>
+                <p> Connect with me: </p>
+            </footer>
+        </body>
+    </html>    
