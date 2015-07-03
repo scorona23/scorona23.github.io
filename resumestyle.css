@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+
+html{
+    background-image: url(http://www.texturezine.com/wp-content/uploads/2014/05/purple-polygon.jpg);
+    width: 100%;
+    background-repeat: repeat-y;
+    
+}
+
+.clearfix:after{
+    display:block;
+    clear:both;
+}
+
+.menu-wrap{
+    width:100%;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-family: dosis;
+    font-size: 125%;
+}
+
+.menu{
+    margin: 0px auto;
+}
+
+.menu li{
+    margin:0px;
+    list-style: none;
+}
+
+.menu li:hover > a, .menu .current-item > a{
+    text-decoration: none;
+}
+
+.menu .arrow{
+    line-height: 0%;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu > ul > li > a{
+    padding: 10px 40px;
+    display: inline-block;
+}
+
+menu > ul > li: hover, .menu > ul > .current-item > a{
+    background-color: cadetblue;
+}
+
+.sub-menu{
+    width:160%;
+    position: absolute;
+    top: 100%;
+    left:0;
+    z-index:-1;
+    opacity: 0;
+    background-color: darkturquoise;
+}
+
+.menu li:hover .sub-menu{
+    z-index:1;
+    opacity:1;
+}
+
+article, footer{
+    background-color: palevioletred;
+    opacity: 0.8;
+    font-family: Dosis;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 150%;
+    word-break: break-all;
+}
+
+.heading{
+    text-align: center;
+    line-height: 10px;
+}
+
+h2, h3{
+    
+    text-indent: 50px;
+    font-size: 98%;
+}
+
+.main-body p, li{
+    text-indent: 100px;
+    list-style-position: inside;
+}
+
+h1{
+    background-color: paleturquoise;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.work-experience h3{
+    font-size: 90%;
+}
+
+#name{
+    font-size: 200%;
+    font-weight: bold;
+}
+p, h2, h3{
+    line-height: 10px;
+}
